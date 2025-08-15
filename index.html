@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        header{
+            background: #333;
+            color:white ;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: white 3px solid;
+            text-align: center;     
+        }
+
+        header.container{
+            display: flex;
+            text-decoration: none;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a{
+            color: #ece6e6;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul{
+            list-style: none;
+        }
+
+        header li{
+            display: inline;
+            padding: 0 2px;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+            background: #0779e4;
+            color: #fff;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+
+        section {
+            padding: 60px 0;
+            border-bottom: #ccc 1px solid;
+        }
+
+        section h3 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        .layanan-list {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            text-align: center;
+        }
+
+        .layanan-item {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex: 1;
+        }
+        .map iframe{
+            display: block;
+            margin: 0 auto;
+            width: 600px;
+        }
+
+        img{
+            height: auto;
+            width: 30%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>website Rizky</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#aboutme">aboutme</a></li>
+                <li><a href="#myfriend">myfriend</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Selamat Datang di Halaman Web Kami</h2>
+                <p>Ini adalah contoh halaman web sederhana dengan HTML dan CSS. Halaman ini dibuat untuk tujuan pembelajaran.</p>
+                <a href="htpp:/www.google.com" class="cta-button">Lihat Layanan Kami</a>
+            </div>
+        </section>
+
+        <section id="aboutme">
+            <div class="container">
+                <h3>aboutme</h3>
+                <p style="text-align: center;">Halo, Nama saya Rizky Aditya Rachman, umur 16 tahun, lahir tanggal 13 Maret 2009. Dulu saya menduduki kursi sekolah dasar di sekolah dasar negeri (SDN) pondok kacang barat 3, lalu menduduki kursi sekolah menengah pertama di SMPN 14 Tangsel, dan sekarang saya bersekolah di Sekolah menengah Kejuruan negeri (SMKN) 6 kota Tangerang Selatan. Hobi saya bermain game, mendengarkan musik dan berolahraga angkat beban di gymnasium. Setiap hari setelah saya pulang sekolah saya selalu pergi ke gymnasium untuk berolahraga membentuk otot tubuh saya agar saya terlihat jauh lebih menarik dan jauh lebih sehat.</p>
+            </div>
+        </section>
+
+        <section id="myfriend">
+            <div class="container">
+                <h3>myfriend</h3>
+                <div class="layanan-list">
+                    <div class="layanan-item">
+                        <img src="dafa rpl2.jpg">
+                        <ol>
+                            <li>nama=dafa atallah</li>
+                            <li>teman main</li>
+                        </ol>
+                    </div>
+                    <div class="layanan-item">
+                        <img src="foto rafa.jpg">
+                        <ol>
+                            <li>nama= Muhammad Rafa Ramadhan</li>
+                            <li>teman cerita</li>
+                        </ol>
+                    </div>
+                    <div class="layanan-item">
+                        <img src="foto fahri & hafis.jpg">
+                        <ol>
+                            <li>nama=Fahri dan hafis</li>
+                            <li>teman main</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="map">
+                <h3><contact></contact>
+                <p style="text-align: center;">nomer hp=08818059115</p> 
+                <h3>Alamat rumah</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.114584670173!2d106.68016747402555!3d-6.248628661181035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fbb72c6a0247%3A0x7b5e5417ce2ad340!2sKomplek%20Kembang%20Lontar%20Indah!5e0!3m2!1sid!2sid!4v1755224003921!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
